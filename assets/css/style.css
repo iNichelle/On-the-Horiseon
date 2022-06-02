@@ -1,13 +1,20 @@
+/******************************************************************/
+/* CSS Style sheet for Horiseon Site                              */
+/******************************************************************/
+
+/* Style definition for all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set webpage body color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set header attributes at top of webpage. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +22,18 @@ body {
     color: #ffffff;
 }
 
+/* heading 1 tag attributes for Header section. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Heading 1 span attributes for company name. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header division attributes for title links. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +60,7 @@ p {
     font-size: 16px;
 }
 
+/* .hero style for general background formatting. */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +86,78 @@ p {
     margin-left: 20px;
 }
 
+/******************************************************************/
+/* Beginning of services section on the left side of the webpage. */
+/******************************************************************/
+
+/* search engine optimization formatting for first image and text block. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* online reputation management formatting for second image and text block. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* social media marketing formatting for third image and text block. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* image tag attributes for search engine optimization- see section above. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* image tag attributes for online reputation management. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* image tag attributes for social media marketing. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* heading 2 tag attributes for search engine optimization. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* heading 2 tag attributes for online reputation management. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* heading 2 tag attributes for social media marketing. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*******************************************************************/
+/* Beginning of benefits section on the right side of the webpage. */
+/*******************************************************************/
+
+/* style definition for the benefits section. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +169,68 @@ p {
     background-color: #2589bd;
 }
 
+/* style definition for the lead generation image and text block. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* style definition for the brand awareness image and text block. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* style definition for the cost management image and text block. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* heading 3 tag attributes for lead generation. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* heading 3 tag attributes for brand awareness. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* heading 3 tag attributes for cost management. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image tag attributes for lead generation. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image tag attributes for brand awareness. */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image tag attributes for cost management. */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/*******************************************************************/
+/* Beginning of footer section at the bottom of the webpage. */
+/*******************************************************************/
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer style definition. */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +238,7 @@ p {
     text-align: center;
 }
 
+/* heading 2 tag attributes for the page footer. */
 .footer h2 {
     font-size: 20px;
 }
